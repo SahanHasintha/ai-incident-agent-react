@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useState } from "react";
 
 type AnalysisResult = {
   incidentType: string[];
@@ -93,10 +93,6 @@ export default function App() {
             <p className="mt-2 text-slate-400">
               Upload a .log file and get incident classification + root-cause summary.
             </p>
-          </div>
-          <div className="hidden sm:block text-right">
-            <div className="text-xs text-slate-400">Backend</div>
-            <div className="text-sm font-medium text-slate-200">http://localhost:3000</div>
           </div>
         </div>
 
